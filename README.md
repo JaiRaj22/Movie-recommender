@@ -11,11 +11,17 @@ This project is a movie recommender system that suggests movies based on user pr
 - Streamlit
 
 ## Algorithms and Methodologies Used
-The movie recommender system employs the following techniques:
-- Content-based filtering
-- Cosine similarity
-- CountVectorizer
-- Porter Stemmer
+### Content-based Filtering
+Content-based filtering recommends items based on the similarity of their features to the user's preferences. In this project, movie recommendations are made by comparing movie features such as genres, keywords, and cast.
+
+### Cosine Similarity
+Cosine similarity is a metric used to measure how similar two items are based on their features. In the movie recommender system, cosine similarity is used to calculate the similarity between movies and provide recommendations based on the most similar items.
+
+### CountVectorizer
+CountVectorizer is a technique used to convert text data into numerical features. In this project, CountVectorizer is applied to process textual data such as movie overviews and tags to extract meaningful information for recommendation.
+
+### Porter Stemmer
+Porter Stemmer is a natural language processing technique used to reduce words to their root or base form. It helps in standardizing and simplifying text data, making it easier to process and analyze for recommendation purposes.
 
 ## Accuracy
 The accuracy of the movie recommender system is based on the similarity of movie features and user preferences. The system aims to provide relevant movie recommendations based on the user's input and historical data.
@@ -33,4 +39,3 @@ To run the movie recommender system:
 - Incorporating collaborative filtering techniques
 - Enhancing the recommendation engine with user feedback loops
 - Implementing a user interface for better user interaction
-
